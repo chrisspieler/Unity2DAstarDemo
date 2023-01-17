@@ -1,18 +1,20 @@
 {
   "dependencies": {
     "com.duccsoft.astar": {
-      "version": "file:C:/SoftwareProjects/Unity2DAStar",
+      "version": "https://github.com/chrisspieler/Unity2DAStar.git",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.duccsoft.collections": "1.0.0"
-      }
+      },
+      "hash": "932e6d88e055d5421e235f99a92f80b43daf4292"
     },
     "com.duccsoft.collections": {
-      "version": "file:C:/SoftwareProjects/UnityCollections",
+      "version": "https://github.com/chrisspieler/UnityCollections.git",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "f6f84a88b1a050b42ac27236036e329d48c73703"
     },
     "com.unity.2d.animation": {
       "version": "7.0.9",
