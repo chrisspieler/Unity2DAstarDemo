@@ -49,6 +49,10 @@ public class NavigationManager : MonoBehaviour
             return;
         }
         var enemyCoords = _nodes.NavGrid.WorldToCell(enemy.transform.position);
+        if (!_nodes.Nodes.ContainsKey(enemyCoords))
+        {
+            return;
+        }
         NavNode startNode = _nodes.Nodes[enemyCoords];
         List<Vector2> foundPath;
         if (!_pathfinder.FindPath(startNode, out foundPath))
